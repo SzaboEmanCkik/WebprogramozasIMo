@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap ismétlés</title>
+</head> 
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="zold col-12 col-md-6 col-lg-4 order-last">
+                <p>zöld</p>
+                <p>mindig megjelenik</p>
+                <ul>
+                    <li>Kis méretben 12 hosszúságú és utolsónak jelenik meg</li>
+                    <li>médium méretben 6</li>
+                    <li>midnen más esetben 4</li>
+                </ul>
+            </div>
+            <div class="feher col-12 col-md-6 col-lg-4 d-md-none d-lg-block">
+                <p>fehér</p>
+                <ul>
+                    <li>Kis méretben 12 hosszúságú</li>
+                    <li>médium méretben 6</li>
+                    <li>midnen más esetben 3</li>
+                </ul>
+            </div>
+            <div class="piros col-12 col-md-6 col-lg-4 order-first">
+                <p>piros</p>
+                <p>mindig megjelenik</p>
+                <ul>
+                    <li>Kis méretben 12 hosszúságú, elsőként jelenik meg</li>
+                    <li>médium méretben 6</li>
+                    <li>midnen más esetben 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
